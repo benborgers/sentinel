@@ -16,6 +16,7 @@ model Error {
   message String
   stack String
   metadata Json?
+  hidden Boolean @default(false)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
