@@ -4,7 +4,7 @@ Sentinel is my own little alternative to [Sentry](https://sentry.io), written wi
 
 Errors are reported via a `POST` request to `/report`, with a JSON body of this type:
 
-```ts
+```typescript
 {
   appName: string;
   message: string;
