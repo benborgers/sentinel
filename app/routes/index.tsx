@@ -55,7 +55,7 @@ export default function Index() {
   }
 
   return (
-    <div className="max-w-screen-sm mx-auto">
+    <div className="max-w-screen-sm mx-auto sm:pt-6">
       <div className="space-y-4 sm:space-y-6">
         {data.errors.map((error) => (
           <div
